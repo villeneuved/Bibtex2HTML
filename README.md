@@ -24,4 +24,8 @@ All command line arguments are optional. The input file (-i) should probably be 
 The optional authorname (-a) specifies an author's last name like Smith; then only articles that contain Smith as an author will be included.  
 Citation count (-c) is optional, and will look up the number of article citations on Scopus.  It requires the pybliometrics package, a Scopus key, and must be run on a computer with licensed access to Scopus, like a university network.
 
+The output is sorted by year (decreasing), then alphabetically by the last name of the first author.
+
+The produced HTML file can be opened directly in a browser.  In addition, the HTML text, minus the preamble required by a browser, is copied into the clipboard.  This text can be pasted into e.g a Wordpress site.
+
 A convenience program, bib2html.py, is included.  It uses PyQt5 to create a graphical user interface that drives MakeHtmlBibtex.
