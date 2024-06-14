@@ -29,3 +29,12 @@ The output is sorted by year (decreasing), then alphabetically by the last name 
 The produced HTML file can be opened directly in a browser.  In addition, the HTML text, minus the preamble required by a browser, is copied into the clipboard.  This text can be pasted into e.g a Wordpress site.
 
 A convenience program, bib2html.py, is included.  It uses PyQt5 to create a graphical user interface that drives MakeHtmlBibtex.
+
+## Sample HTML output
+
+<h1>Attosecond Science Publications</h1>
+<div style="clear:both;"><h3>2020</h3></div>
+<div style="width:90%;padding:0.5em 0px 0.5em 0px;border-bottom:thin solid #0000ff;"><span>Tomoyuki Endo, Simon P. Neville, Vincent Wanie, Samuel Beaulieu, Chen Qu, Jude Deschamps, Philippe Lassonde, Bruno E. Schmidt, Hikaru Fujise, Mizuho Fushitani, Akiyoshi Hishikawa, Paul L. Houston, Joel M. Bowman, Michael S. Schuurman, François Légaré, Heide Ibrahim, </span><br/><span style="font-style:italic;">Capturing roaming molecular fragments in real time, </span><br/><span>Science 370, 1072--1077 (2020)</span><span style="font-size:small;float:right;">    <a href="http://dx.doi.org/10.1126/science.abc2960" target="_blank">DOI</a> </span></div>
+<div style="width:90%;padding:0.5em 0px 0.5em 0px;border-bottom:thin solid #0000ff;"><span>Katherine R. Herperger, Anja Röder, Ryan J. MacDonell, Andrey E. Boguslavskiy, Anders B. Skov, Albert Stolow, Michael S. Schuurman, </span><br/><span style="font-style:italic;">Directing excited state dynamics via chemical substitution: A systematic study of π-donors and π-acceptors at a carbon–carbon double bond, </span><br/><span>The Journal Of Chemical Physics 153, 244307 (2020)</span><span style="font-size:small;float:right;">    <a href="http://dx.doi.org/10.1063/5.0031689" target="_blank">DOI</a> </span></div>
+<div style="width:90%;padding:0.5em 0px 0.5em 0px;border-bottom:thin solid #0000ff;"><span>Homin Shin, Xiangyang Liu, Thomas Lacelle, Ryan J. MacDonell, Michael S. Schuurman, Patrick R. L. Malenfant, Chantal Paquet, </span><br/><span style="font-style:italic;">Mechanistic Insight into Bis(amino) Copper Formate Thermochemistry for Conductive Molecular Ink Design, </span><br/><span>\ACS\ Applied Materials & Interfaces 12, 33039--33049 (2020)</span><span style="font-size:small;float:right;">    <a href="http://dx.doi.org/10.1021/acsami.0c08645" target="_blank">DOI</a> </span></div>
+
